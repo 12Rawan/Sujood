@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".azkar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/azakrelsabah"
+           android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:backgroundTint="#759A97"
+            android:text="أذكار الصباح  "
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/azkarmsaa"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار المساء  "
+            android:textColor="#000000"
+            android:textFontWeight="11"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/azkarestekaz"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار الاستيقاظ"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/azkarnom"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار النوم "
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/azkarwdoo"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار الوضوء"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/azkartaam"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار الطعام"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/azkarmsgd"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار المسجد"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/azkarazan"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار الاذان"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/azkarheg"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أذكار الحج و العمرة"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/khtmquran"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="دعاء ختم القرأن"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/adayanbwya"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أدعية نبوية"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/adayamayt"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أدعية للميت"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/adayaanbyaa"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:text="أدعية الانبياء"
+            android:textColor="#000000" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
